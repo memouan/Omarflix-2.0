@@ -1,6 +1,6 @@
 # Omarflix - A trailer movie player
 
-Create a trailer movie player using HTML , CSS , PHP , API : ImBd. 
+Create a trailer movie player using HTML , CSS , JS , PHP , API : ImBd. 
 
 PHPmyAdmin and MySQL to catch data user.
 
