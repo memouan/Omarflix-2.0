@@ -34,7 +34,7 @@ body {
 }
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/color-stripes-1169611_Neon.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/curtain-1275200.png);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -54,7 +54,7 @@ header{
     background: transparent;
     color: #fff !important;
     font-size: 22px;
-    border-radius: 50px;
+    border-radius: 10px;
     margin-top: 20px;
     margin-left: 10px;
     
@@ -173,7 +173,10 @@ a:hover {
     text-decoration: none;
     color: #fff !important;    
 }
-
+.dropdown-item:focus {
+    background-color: #E50914;
+    color: #fff !important;
+}
 /* @media(max-width:960px){
     .hidden-sm{
         opacity: 0;

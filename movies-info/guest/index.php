@@ -33,7 +33,7 @@ if (isset($_SESSION['username'])) {
 <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="../index.php">
-            <img src="../image/clap-off.png" alt="logo">
+            <!-- <img src="../image/logoOff.jpg" alt="logo"> -->
         </a>
 
         <!-- Links -->
@@ -75,7 +75,7 @@ if (isset($_SESSION['username'])) {
 
     <div id="popup2" class="popup-overlay">
         <div class="log-popup">
-            <h2>Sign Up</h2>
+            <h2>register</h2>
             <a class="close-window" href="#">&times;</a>
             <div class="log-content">
                 <form action="../controller/register.php" method="post">

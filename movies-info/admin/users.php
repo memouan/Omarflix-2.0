@@ -74,7 +74,7 @@ include('userlist.php');
         <form action="" method="post">
             <div class="row">
                 <div class="col-md-10 box1">
-                    <h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: #6AC045">Users List </span>(<?php echo $total ?>)</h3>
+                    <h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: #E50914">Users List </span>(<?php echo $total ?>)</h3>
                     <?php 
                     echo $list;
                     ?>

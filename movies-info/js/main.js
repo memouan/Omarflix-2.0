@@ -44,6 +44,7 @@ function popularMovies() {
                         <img src="${poster}" alt="poster" width="210" height="315" class="img">
                         <div class="browse-movie-bottom">
                             <a href="#" onclick="movieSelected('${movie.id}')" class="browse-movie-title">${movie.title}</a>
+                            
                             <div class="browse-movie-year">${year}</div>
                             <button type="submit" class="button" onclick="movieSelected('${movie.id}')">Movie Details</button>
                         </div>
@@ -125,7 +126,6 @@ function getReviews() {
             let output = '';
 
             $.each(reviews, (index, review) => {
-
                 output += `
                         <div class="row review">
                             <div class="col-md-2 box-review1">
@@ -157,7 +157,7 @@ function getMovie() {
             // https://api.themoviedb.org/3/movie/299536/reviews?api_key=5ec279387e9aa9488ef4d00b22acc451&language=en-US&page=1
             console.log(response);
             let movie = response.data;
-
+            
             if (movie.poster_path === null) {
                 poster = "../image/default-movie.png";
             } else {
@@ -190,6 +190,10 @@ function getMovie() {
             genres = genre.join(' / ');
 
             let output1 = `
+            <div class="row">
+            <div class="trailer">
+            </div>
+            </div>
             <div class="row">
                 <div class="col-md-4 box1">
                     <img src="${poster}" class="poster-image">

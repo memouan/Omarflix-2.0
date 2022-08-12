@@ -100,7 +100,7 @@ if (isset($_POST['update'])) {
 
     <header>
         <div class="container req-box" >
-        <center><h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: #6AC045">Update User Data</span></h3></center>
+        <center><h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: #E50914">Update User Data</span></h3></center>
             <form action="" method="post">
                 <div class="row">
                     <div class="col-md-6 box1">

@@ -69,7 +69,7 @@ else{
     </nav>
 
 
-    <div class="container-fluid body">
+    <div class="container-fluid body ">
         <div class="container">
             <div class="sbox">
 

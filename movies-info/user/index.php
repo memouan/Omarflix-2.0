@@ -40,7 +40,7 @@ else{
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Brand/logo -->
         <a class="navbar-brand " href="#">
-            <img src="../image/logoOff.png " alt="logo "> OmarFlix
+            <img src=.jpg " alt="logo "> OmarFlix
         </a>
 
         <!-- Links -->

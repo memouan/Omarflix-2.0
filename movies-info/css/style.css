@@ -29,30 +29,28 @@ body {
 
 
 .sbox {
+    background: #222;
     text-align: center;
     /* width: 40%; */
-    padding: 1em 0;
-    margin-top: 70px;
-    border-radius: 20px;
-    box-shadow: #111 0px 0px 20px;
-
-
+    padding: 5em 0;
+    margin-top: 55px;
+    border-radius: 10px;
 }
 
 .searchBox {
     font-size: 25px;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 7px 20px;
     width: 50%;
-    border: 1;
+    border: 0;
     outline: 0;
     display: inline;
     color: #fff;
-    background: transparent;
+    background: #333;
 }
 
 .movieBox {
-    background: #000;
+    background: #222;
     padding: 15px;
     border-radius: 5px; 
 }
@@ -95,9 +93,8 @@ a{
     font-size: 14px;
     display: inline;
     color: #fff;
-    background: #222;
-    border-color: #E50914;
-    border: 1;
+    background: #E50914;;
+    border: 0;
     outline: 0;
     border-radius: 10px;
 }

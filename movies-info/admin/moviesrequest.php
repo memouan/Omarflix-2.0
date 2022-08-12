@@ -102,7 +102,7 @@ else{
         <form action="" method="post">
             <div class="row">
                 <div class="col-md-8 box1">
-                    <h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: #6AC045">Movies Request Pending</span></h3>
+                    <h3 style="margin-bottom:50px;"><span style="font-weight:bold; color: #E50914">Movies Request Pending</span></h3>
                     <?php 
                     echo $list;
                     ?>
