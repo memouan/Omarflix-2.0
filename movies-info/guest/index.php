@@ -33,7 +33,7 @@ if (isset($_SESSION['username'])) {
 <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
         <!-- Brand/logo -->
         <a class="navbar-brand" href="../index.php">
-            <img src="../image/logoOff.jpg" alt="logo">
+            <img src="../image/clap-off.png" alt="logo">
         </a>
 
         <!-- Links -->

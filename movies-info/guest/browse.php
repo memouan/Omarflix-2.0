@@ -39,6 +39,21 @@ if (isset($_SESSION['username'])) {
         <a class="navbar-brand" href="../index.php">
             <img src="../image/clap-off.png" alt="logo"> OmarFlix
         </a>
+        <li class="nav-item dropdown">
+            <a class="btn btn-sm btn-outline-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Genres
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" id="action" style="color: #e3f2fd;" href="#">Action</a>
+                <a class="dropdown-item" style="color: #e3f2fd;" href="#">Adventures</a>
+                <a class="dropdown-item" style="color: #e3f2fd;" href="#">Anime</a>
+                <a class="dropdown-item" style="color: #e3f2fd;" href="#">Comedies</a>
+                <a class="dropdown-item" style="color: #e3f2fd;" href="#">Documentaries</a>
+                <a class="dropdown-item" style="color: #e3f2fd;" href="#">Horror</a>
+                <a class="dropdown-item" style="color: #e3f2fd;" href="#">Romance</a>
+                <a class="dropdown-item" style="color: #e3f2fd;" href="#">Thriller</a>
+            </div>
+        </li>
 
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
